@@ -1,0 +1,141 @@
+.bg-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btm-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .btm-container {
+    flex-direction: column;
+  }
+}
+.timer-card {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 420px;
+  width: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  .timer-card {
+    height: 300px;
+    width: 300px;
+  }
+}
+.timer-sm-card {
+  background-color: #ffffff;
+  background-position: center;
+  border-radius: 80px;
+  width: 130px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .timer-sm-card {
+    width: 90px;
+    height: 90px;
+  }
+}
+.buttons-card {
+  display: flex;
+  padding: 20px;
+}
+.time {
+  font-family: 'roboto';
+  font-size: 28px;
+  color: #00d9f5;
+  font-weight: bold;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .time {
+    font-size: 18px;
+  }
+}
+.para {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #0f172a;
+  font-weight: bold;
+  margin: 0px;
+}
+.image {
+  width: 25px;
+  margin-right: 6px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+}
+.btn-card {
+  display: flex;
+  align-items: center;
+}
+.btn-text {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #0f172a;
+  font-weight: bold;
+}
+.limit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button-limit-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.limit-text {
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #0f172a;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.limit-btn-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.minus-plus-button {
+  color: #0f172a;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: center;
+}
+.limit-para {
+  background-image: linear-gradient(to left, lightgreen, #00d9f5);
+  font-family: 'roboto';
+  font-size: 20px;
+  color: #0f172a;
+  font-weight: bold;
+  width: 60px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
